@@ -1,0 +1,28 @@
+version: "2"
+
+services:
+    p3:
+        tty: true
+        container_name: p3
+        image: sw230
+        ports:
+            - "5000:5000"
+            - "8888:8888"
+        volumes:
+            - .:/work
+            - work_home:/root
+        security_opt:
+            - seccomp:unconfined
+        environment:
+            - PYTHONPATH=/work
+        command:
+            - jupyter
+            - notebook
+            - --port 
+            - "8888"
+            - --ip 
+            - 0.0.0.0
+            - --allow-root
+
+volumes:
+    work_home:
