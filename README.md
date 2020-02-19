@@ -13,8 +13,9 @@ the header file [`src/impl.h`](src/impl.h) and the source file [`src/impl.c`](sr
 The function(s) should call on GSL functions to perform a mathematical calculations.
 Also, be sure to add tests to ensure your function(s) are operating correctly.
 
-Once you've added your function(s) you need to also provide a python interface
-so it/they can be accessed through a web interface. We'll be exploring how to do this
+Once you've added your function(s) you need to also provide a python interface [`psrc/cimpl.pyx`](psrc/cimpl.pyx)
+so it/they can be accessed through a jupyter notebook. We'll be exploring how to do this
 in the coming two weeks.
 
-Finally, creaet a new python notebook like "ExampleNotebook.ipynb" that exercises your function.
+Finally, create a new python notebook like "ExampleNotebook.ipynb" that exercises your function.
+
