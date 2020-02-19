@@ -17,5 +17,5 @@ Once you've added your function(s) you need to also provide a python interface [
 so it/they can be accessed through a jupyter notebook. We'll be exploring how to do this
 in the coming two weeks.
 
-Finally, create a new python notebook like "ExampleNotebook.ipynb" that exercises your function.
+Finally, create a new python notebook like ["ExampleNotebook.ipynb"](ExampleNotebook.ipynb) that exercises your function.
 
