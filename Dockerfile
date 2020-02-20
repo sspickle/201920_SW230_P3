@@ -27,9 +27,11 @@ RUN cd /gtest/ && wget https://github.com/google/googletest/archive/master.zip &
 
 RUN apt-get install -y gsl-bin libgsl-dbg libgsl-dev libgsl23 libgslcblas0
 
-RUN pip3 install jupyter matplotlib
+RUN pip3 install jupyter matplotlib numpy
 
 COPY . /work
+
+RUN cd /work && make py
 
 WORKDIR /work
 

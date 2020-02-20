@@ -60,3 +60,5 @@ __pycache__
 
 /build
 /psrc/cimpl.c
+
+/.ipynb_checkpoints/*

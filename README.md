@@ -19,3 +19,15 @@ in the coming two weeks.
 
 Finally, create a new python notebook like ["ExampleNotebook.ipynb"](ExampleNotebook.ipynb) that exercises your function.
 
+You can use Docker to get started. First build the docker image `sw230`:
+
+    docker build -t sw230 .
+
+Then compile the C sources & python wrapper:
+
+    docker-compose run p3 make py
+
+Finally launch the jupyter notebook server:
+    
+    docker-compose up
+    
