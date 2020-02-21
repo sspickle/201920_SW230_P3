@@ -31,3 +31,7 @@ Finally launch the jupyter notebook server:
     
     docker-compose up
     
+When you're finished:
+
+    docker-compose down
+
